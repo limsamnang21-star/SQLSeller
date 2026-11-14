@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f7fc;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form Card */
+form {
+    background: white;
+    width: 420px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Title */
+h2 {
+    text-align: center;
+    color: #34495e;
+    margin-bottom: 25px;
+}
+
+/* Labels */
+label {
+    display: block;
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+/* Inputs and Textarea */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 18px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* When clicking input */
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52,152,219,0.4);
+}
+
+/* Textarea size */
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+/* Update Button */
+input[type="submit"] {
+    width: 100%;
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 13px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Button Hover */
+input[type="submit"]:hover {
+    background: #217dbb;
+    transform: translateY(-2px);
+}
